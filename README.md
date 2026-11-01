@@ -36,6 +36,19 @@ A software-only solution to control your PC mouse using hand gestures via a webc
     Invoke-WebRequest -Uri https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task -OutFile hand_landmarker.task
     ```
 
+4.  **Run the System**:
+    ```bash
+    python main.py
+    ```
+
+## ✋ Gesture Guide (Detailed Patterns)
+
+### 1. **MOVE CURSOR**
+*   **Pattern**: Raise **Index Finger** ONLY. Keep other fingers curled.
+*   **Action**: The mouse cursor follows your index fingertip.
+*   **Tips**: Keep your hand steady. Move within your camera's field of view.
+    
+
 
 
 
